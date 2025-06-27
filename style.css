@@ -63,6 +63,7 @@ tr:hover {
 *{
     background-color: white;
     color: black;
+    margin: 0.5rem;
 }
 
 .notes{

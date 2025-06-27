@@ -46,6 +46,8 @@
             <li>On-Boarding - User story</li>
             <li>(KYB)Verification. Know your business - New User</li>
             <li>On-Boarding - Existing user</li>
+            <li>Sign Up</li>
+            <li>Log in</li>
             <li>Know Your Business (KYB) Verification – Existing User11</li>
             <li>Create Transaction PIN12</li>
             <li>Link Phone number or Email address13</li>
@@ -75,7 +77,7 @@
             <li>Account Settings</li>
         </ol>
         <h3>DOCUMENT VERSION CONTROL</h3>
-        <p style="font-family: cursive; color: red;">The table below tracks all released versions of this document,
+        <p style="font-style: italic; color: red;">The table below tracks all released versions of this document,
             including effective dates and a summary of key
             changes:</p>
 
@@ -90,7 +92,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td data-label="Version" >1.0</td>
+                    <td data-label="Version">1.0</td>
                     <td data-label="Date">15/05/2025</td>
                     <td data-label="Initials"></td>
                     <td data-label="Description">Initial release</td>
@@ -106,7 +108,7 @@
         </table>
 
         <h3>DOCUMENT REVIEWERS AND APPROVERS</h3>
-        <P style="font-family: cursive; color: red;">List the individuals that must review or approve this document </P>
+        <P style="font-style: italic; color: red;">List the individuals that must review or approve this document </P>
         <table>
             <thead>
                 <tr>
@@ -263,7 +265,7 @@
                     </tr>
                     <tr>
                         <td class="version">.</td>
-                        <td>Complete KYB</td>
+                        <td>A user with personal alert account</td>
                         <td>Update business documentation (BVN/NIN, Company documents & address) for verification</td>
 
                     </tr>
@@ -433,140 +435,206 @@
                 <li sclass="notes">If there is a mismatch, it returns unsuccessful and customer re-attempts</li>
             </ul>
             <p>Selects either “Continue to KYB verification” or “Proceed to Dashboard” </p>
-            <h3>Know Your Business (KYB) Verification – “New User’’</h3>
-            <p class="notes">New User attempts to complete KYB verification to access features</p>
             <ul>
-                <li>Selects “Continue to KYB verification”</li>
-                <li>Verifies identity - enters 11-digit BVN & NIN</li>
+                <li>
+                    <h5>On-Boarding “Existing User”</h5>
+                </li>
             </ul>
+            <p style="color:#b92929 ;">Existing User attempts to Sign- up on Alert Business Banking</p>
+            <li>
+                <P style="color: black;"> Opens preferred browser on the Desktop & visits <a style="color: blue;"
+                        href="https://business.staging.alertmfb.com.ng/welcome/ ">www.alertbusiness.com </a> to
+                    sign-up.
+                <P>
+            </li>
+            <p style="color:#b92929 ;">Note: Alert Business logo is visible on the display screen </p>
+            <li>Selects “Get started’’, system displays 2 options: - “New User” or “Existing User’’</li>
+            <li>Selects “Existing User” and enters Alert account number</li>
             <p class="notes">NOTE</p>
             <ul>
-                <li class="notes">System displays option to dial *565# to get BVN and *346# for NIN</li>
-                <li class="notes">Verifies BVN and NIN details, user only proceeds if validation is successful</li>
-                <li>Conducts Face verification - verifies identity with a Photo capture</li>
-                <p class="notes">NOTE</p>
-                <li class="notes">System displays criteria and verifies identity, provides responses based on validation
-                    feedback.</li>
-                <li class="notes">If successful, returns “Identity verified Successfully” user selects “continue” to
-                    proceed. </li>
-                <li class="notes">If unsuccessful, user re- attempts liveliness check</li>
-                <li>Enters Residential address based on City, State, LGA, Landmark, </li>
-                <li>Uploads Business Logo, Selects Business entity, Industry, Company size, estimated annual income,
-                    Enters Business name, RC number, Directors details</li>
-                <p class="notes">NOTE</p>
-                <li class="notes">displays supported file format & size for Business logo & ID card,</li>
-                <li>Uploads Business documents – CAC, Memorandum of corporation, SCUMUL, Utility bill valid within 90
-                    days</li>
-                <p class="notes">NOTE</p>
-                <li class="notes"></li>System displays sample supported file format & size. If user uploads wrong
-                format, system returns message - “This document is not supported, please delete and upload another file”
-                </li>
-                <li>Fills in business address – Selects Business location, enters City, State, LGA, Landmark and selects
-                    Zip Code.</li>
-                <li>Reviews or Edits document, checks attestation box </li>
-                <p class="notes">NOTE</p>
-                <p style="color:#b92929 ;">Note: System validates information & stores details on database</p>
-                <li>A Business account is automatically created with details displayed on screen and an option to copy
-                    account details. </li>
-                <p class="notes">NOTE</p>
-                <li class="notes">System returns success message – “Your Business Profile is Ready.” </li>
-                <li class="notes">User has an option to select “Continue” for next step or “Proceed to Dashboard” to
-                    discontinue process </li>
-                <li>Selects “Proceed to the Dashboard”</li>
-                <ul>
-                    <li>
-                        <h5>On-Boarding “Existing User”</h5>
-                    </li>
-                </ul>
-                <p style="color:#b92929 ;">Existing User attempts to Sign- up on Alert Business Banking</p>
-                <li>
-                    <P style="color: black;"> Opens preferred browser on the Desktop & visits <a style="color: blue;"
-                            href="https://business.staging.alertmfb.com.ng/welcome/ ">www.alertbusiness.com </a> to
-                        sign-up.
-                    <P>
-                </li>
-                <p style="color:#b92929 ;">Note: Alert Business logo is visible on the display screen </p>
                 <li>Selects “Get started’’, system displays 2 options: - “New User” or “Existing User’’</li>
                 <li>Selects “Existing User” and enters Alert account number</li>
-                <p class="notes">NOTE</p>
-                <ul>
-                    <li>Selects “Get started’’, system displays 2 options: - “New User” or “Existing User’’</li>
-                    <li>Selects “Existing User” and enters Alert account number</li>
-                </ul>
-                <p class="notes">NOTE</p>
-                <li class="notes">System validates account details inputted and sends a 6-digit code to the phone number
-                    linked to account</li>
-                <li class="notes">User receives 6-digit code within 30 seconds and is allowed only 3 tri\al attempts
-                    System displays an option to resend code if not received is displayed on the screen.</li>
-                <li>Enters 6-digit code to verify phone number & selects the check box for the ‘’Terms of Use” and
-                    privacy policy </li>
-                <p style="color:#b92929 ;">Note: User can view the agreement by clicking on “Terms of Use”</p>
-                <li>Creates a 6-digit Business Account Passcode to sign-in </li>
-                <p class="notes">NOTE</p>
-                <ul>
-                    <li style="color:#b92929 ;">System checks passcode match and returns success message “Passcode
-                        successfully created” </li>
-                    <li style="color:#b92929 ;">If there is a mismatch, it returns unsuccessful and customer re-attempts
-                    </li>
-                </ul>
-                <li>Selects either “Continue to KYB verification” or “Proceed to Dashboard” </li>
-                <ul>
-                    <li>
-                        <h3>Know Your Business (KYB) Verification – ‘’Existing User’’</h3>
-                    </li>
-                </ul>
-                <p style="color:#b92929 ;">Existing User attempts to complete KYB verification to access features</p>
-                <ul>
-                    <li>Selects “Continue to KYB verification” </li>
-                    <li>Verifies identity - confirms or declines BVN & NIN details by selecting “Yes, it’s mine” OR “No,
-                        not mine”</li>
-                </ul>
-                <p style="color:#b92929 ;">Note: System displays user’s picture, phone number & masked BVN/NIN. </p>
-                <li>Conducts Face verification - verifies identity with a Photo capture</li>
-                <p class="notes">NOTE</p>
-                <li class="notes">System displays criteria and verifies identity, provides responses based on validation
-                    feedback.</li>
-                <li class="notes">If successful, returns “Identity verified Successfully” user selects “continue” to
-                    proceed. </li>
-                <li class="notes">If unsuccessful, user re- attempts liveliness check</li>
-                <li>Enters Residential address based on City, State, LGA, Landmark, </li>
-                <li>Uploads Business Logo, Selects Business entity, Industry, Company size, estimated annual income,
-                    Enters Business name, RC number, Directors details</li>
-                <p class="notes"> Note: System displays supported file format & size for Business logo & ID card,</p>
-                <li>Uploads Business documents – CAC, Memorandum of corporation, SCUMUL, Utility bill valid within 90
-                    days</li>
-                <p class="notes">NOTE</p>
-                <ul>
-                    <li class="notes">System displays sample file format & file size. If user uploads wrong format,
-                        system returns message - “This document is not supported, please delete and upload another file”
-                    </li>
-                </ul>
-                <li>Fills in business address – Selects Business location, enters City, State, LGA, Landmark and selects
-                    Zip Code.</li>
-                <li>Reviews or Edits document, checks attestation box </li>
-                <p class="notes">Note: System validates information & stores details on Database</p>
-                <li>A Business account is automatically created with details displayed on screen and an option to copy
-                    account details. </li>
-                <p class="notes">NOTE</p>
-                <ul>
-                    <li class="notes">System returns success message – “Your Business Profile is Ready.” </li>
-                    <li class="notes">User has an option to select “Continue” for next step or “Proceed to Dashboard” to
-                        discontinue process </li>
-                </ul>
-
-                <li>Clicks on “Proceed to the Dashboard”</li>
-                <ul>
-                    <li>
-                        <h3>Create Transaction PIN </h3>
-                    </li>
-                </ul>
-
-                <br><br><br><br><br>
-
-                <li>
-                    <h3>Link Phone Number or Email Address </h3>
+            </ul>
+            <p class="notes">NOTE</p>
+            <li class="notes">System validates account details inputted and sends a 6-digit code to the phone number
+                linked to account</li>
+            <li class="notes">User receives 6-digit code within 30 seconds and is allowed only 3 tri\al attempts
+                System displays an option to resend code if not received is displayed on the screen.</li>
+            <li>Enters 6-digit code to verify phone number & selects the check box for the ‘’Terms of Use” and
+                privacy policy </li>
+            <p style="color:#b92929 ;">Note: User can view the agreement by clicking on “Terms of Use”</p>
+            <li>Creates a 6-digit Business Account Passcode to sign-in </li>
+            <p class="notes">NOTE</p>
+            <ul>
+                <li style="color:#b92929 ;">System checks passcode match and returns success message “Passcode
+                    successfully created” </li>
+                <li style="color:#b92929 ;">If there is a mismatch, it returns unsuccessful and customer re-attempts
                 </li>
             </ul>
+            <li> “Proceed to Dashboard” </li>
+
+
+            <li>Clicks on “Proceed to the Dashboard”</li>
+
+            <h3>Onboarding "A user with personal alert account"</h3>
+            <h3>BVN & NIN</h3>
+            <p>User enters 11-digits bank verification Number(BVN)</p>
+            <p class="notes">NOTE</p>
+            <p class="notes">Dial *565*0# on your registered phone number to get your BVN</p>
+            <p>User enters 11-digit National Identification number(NIN)</p>
+            <p class="notes">NOTE</p>
+            <p>Dial *346# on your registered phone number to get your NIN.</p>
+            <P>Service cost NGN 20. Visit <a href="nimc.gov.ng/smc-service">nimc.gov.ng/smc-service</a></P>
+            <h3>Face Verification</h3>
+            <ul>
+                <li>Verify your identity with a photo</li>
+                <p class="notes">NOTE</p>
+                <p class="notes">User face will be matched with the information provided to ensure your account
+                    security.User follow the guideline for a successful capture</p>
+                <ul>
+                    <li>User make sure they are in a brightly lit space</li>
+                    <li>User takes off glasses,hats,face masks or any covering that obscure faces</li>
+                </ul>
+                <p class="notes">NOTE</p>
+                <p class="notes">Upon successful verification,user account is now secure</p>
+
+            </ul>
+            <h3>Residential Address</h3>
+            <p class="notes">User provides current address for verification and security purposes</p>
+            <ul>
+                <li>Enter Address</li>
+                <li>City</li>
+                <li>State</li>
+                <li>LGA</li>
+                <li>Landmark</li>
+                <li>Zip code</li>
+            </ul>
+
+            <h3>Business Details</h3>
+            <p class="notes">User provides information about business</p>
+            <ul>
+                <li>User upload business logo</li>
+                <li>Business Entity/Type</li>
+                <li>Business Name</li>
+                <p class="notes">NOTE</p>
+                <p class="notes">User must use the registered name on their documents</p>
+                <li>Registration Number(RC Number)</li>
+                <li>Business industry</li>
+                <li>Company size</li>
+                <li>Estimated annual income</li>
+            </ul>
+
+            <h3>Business Directory</h3>
+            <p>User provides some information about the directors of business.</p>
+            <p class="notes">NOTE</p>
+            <p class="notes">User can add multiple directors</p>
+            <ul>
+                <li>Director's First name</li>
+                <li>Director's Last name</li>
+                <li>Email Address</li>
+                <li>Phone number</li>
+                <li>Means of Identification</li>
+                <li>National Identification Number</li>
+                <p>User Uploads Director's ID card</p>
+            </ul>
+
+            <h3>Business Documents</h3>
+            <p>User provides business registration documents</p>
+
+            <ul>
+                <li>CAC Certificate of business</li>
+                <li>Memorandum of incoperation</li>
+                <lI>SCUML document</lI>
+                <li>Utility bill</li>
+            </ul>
+
+            <h3>Business Address</h3>security purpose
+            <p>User provides currents business address for verificationa and </p>
+            <ul>
+                <li>Business Location</li>
+                <li>City</li>
+                <li>State</li>
+                <li>LGA</li>
+                <li>Landmark</li>
+                <li>Zip code</li>
+            </ul>
+
+            <h3>Attestation</h3>
+            <p>User reviews the details and confirm their accuracy before proceeding</p>
+            <p class="notes">NOTE</p>
+            <p class="notes">By submitting,user acknowlege that the information provided is true and correct to best of
+                user knowlege</p>
+
+            <ul>
+                <li>Business Details (Folder)</li>
+                <li> Business Documents (Folder)</li>
+                <li>Business Address (Folder)</li>
+            </ul>
+
+            <p>User attest that all information provided is correct</p>
+            <p class="notes">Upon successful,user account created successfully</p>
+            <h3>Sign up</h3>
+            <ul>
+                <li>User enters either phone number or email linked to Alert account & selects “continue”</li>
+                <ul>
+                    <li>A 6-digit is sent to user Email/Number</li>
+                </ul>
+                <li>User verify Email/Number</li>
+                <li>User <b>Clicks</b> "I agree" to terms and condition</li>
+
+            </ul>
+
+            <h3>Log – In</h3>
+            <li>User enters either phone number or email linked to Alert account & selects “continue”</li>
+            <p class="notes">NOTE :</p>
+            <p class="notes">By using Alert,user agree to Terms of use and Privacy Policy</p>
+            <li>Enters “Business Account Passcode”</li>
+            <p class="notes">NOTE :</p>
+            <ul>
+                <li class="notes">2FA - system sends 6digit code to either phone number or email for verification
+                </li>
+            </ul>
+            <li>Enters code to log -in</li>
+
+            <h3>Reset Passcode: -</h3>
+            <li>User enters email or number registerd with accont for verification</li>
+            <h6>Note: A 6-digit code is sent to email or number for verification</h6>
+            <li>User enters 6-digit code received, if successful</li>
+            <li>Enters passcode details, new passcode and confirms passcode</li>
+            <li>Passcode is reset successfully</li>
+
+            <h3>Add Beneficiary – Transfer: -</h3>
+            <li>User selects” beneficiaries” menu on the dashboard</li>
+            <li>Selects “beneficiary type” from drop list</li>
+            <li>Enters the following details – “Beneficiary name”, “Account number”, “Bank”, </li>
+            <li>Beneficiary details successfully added</li>
+
+            <h3>Add Beneficiary – Transfer: -</h3>
+            <li>User selects” beneficiaries” menu on the dashboard</li>
+            <li>Selects “beneficiary type” from drop list</li>
+            <li>Enters the following details – “Beneficiary name”, “Account number”, “Bank”, </li>
+            <li>Beneficiary details successfully added</li>
+
+            <h3>Add Beneficiary – Airtime & Data: -</h3>
+            <li>User selects “beneficiaries” menu on the dashboard</li>
+            <li>Selects “beneficiary type” from drop list</li>
+            <li>Enters the following details – “Beneficiary phone number” & “Network provider” </li>
+            <li>Beneficiary details successfully added</li>
+
+            <h3>Add Beneficiary – Bills Payment: -</h3>
+            <li>User selects “beneficiaries” menu on the dashboard</li>
+            <li>Selects “beneficiary type” from drop list</li>
+            <li>Enters the following details – “Wallet name”, “User id”, etc.</li>
+            <li>Selects “service provider” from drop list</li>
+            <li>Beneficiary details successfully added</li>
+
+
+
+            <li>
+                <h3>Link Phone Number or Email Address </h3>
+            </li>
+
+
             <p class="notes">User attempts to link phone number or email address to account after successful on-boarding
             </p>
             <ul>
@@ -588,74 +656,123 @@
                     </li>
                     <li class="notes">Where a user attempts to link a phone number or email associated with another
                         account, system declines request </li>
+                </ul> <br>
+
+                <h1>TRANSACTION SERVICES</h1>
+                <ul>
+                    <li>
+                        <h3>Send Money </h3>
+                    </li>
+                </ul>
+                <p>As a business user,
+                    I want to transfer money to either an Alert account or accounts in other banks,
+                    So that I can pay vendors and partners inside or outside the Alert ecosystem.</p>
+
+                <h4>
+                    Preconditions / Requirements:
+                </h4>
+
+                <ul>
+                    <li>User must be logged into the Alert Business App.</li>
+                    <li>User must have a funded business account.</li>
+                    <li>User must be KYB verified and authorized to perform transfers.</li>
+                </ul> <br>
+
+                <h3>Flow Description: </h3>
+                <p><b>User cliks</b> on the <b>"Send Money"</b> icon from Dashboard</p>
+                <h5>Step 1: Select Debit Account</h5>
+                <ul>
+                    <li>User sees a list of their available business accounts.</li>
+                    <li>User selects the account to debit for this transfer.</li>
                 </ul>
 
-                <h3 style="color:#b92929 ;">TRANSACTION SERVICES</h3>
-                <ul>
-                    <li>Send Money </li>
-                </ul>
-                <p>Sole User or User with “initiator’ rights attempts to make Single transfer from own account on
-                    Business banking, to either an Alert account or other bank accounts.</p>
-                <ul>
-                    <li>Selects “Send money’’ on the Dashboard</li>
-                </ul>
-                <p class="notes">NOTE</p>
-                <ul>
-                    <li class="notes">System displays user’s recent transaction history – successful and failed</li>
-                    <li class="notes">Displays a search button to view transactions within a specified date range</li>
-                </ul>
-                <li>Selects Account to debit from drop list</li>
-                <p class="notes">NOTE</p>
-                <ul>
-                    <li class="notes">If User’s profile has multiple accounts linked, system displays all accounts for
-                        user to select the account to debit.</li>
-                </ul>
-                <li>Enters beneficiary account number & selects Bank name from drop list OR
-                    Selects from “saved Beneficiary list”</li>
-                <p class="notes">NOTE</p>
-                <ul>
-                    <li class="notes">System validates beneficiary details and returns beneficiary name.</li>
-                    <li class="notes">Where user selects from “saved beneficiary”, system automatically populates
-                        details for user to proceed with transaction </li>
-                </ul>
-                <li>Enters Transaction amount, transfer narration and selects ‘Continue” </li>
-                <li>Confirms transaction details and selects “Send money” </li>
-                <p class="notes">NOTE</p>
-                <ul>
-                    <li class="notes">System displays summary page with transaction details for confirmation</li>
-                    <li class="notes">Summary page contains the ffg details - Transfer Amount, Transfer fee (if
-                        applicable), Total debit amount, Beneficiary name, Account number and Bank name.</li>
-                </ul>
-                <h3>Enters 4-digit PIN.</h3>
-                <p class="notes">NOTE</p>
-                <ul>
-                    <li class="notes">System processes payment and returns “Transfer Successful!” OR “Failed” if
-                        unsuccessful.</li>
-                    <li class="notes">User has the option to ’Add beneficiary”, “Share receipt”, “Download receipt”, OR
-                        “Go to Dashboard” </li>
-                    <li class="notes">User receives SMS and email notification on transaction status</li>
+                <h5>Step 2: Provide Beneficiary Details</h5>
 
-                </ul>
-                <li>Selects “Proceed to Dashboard” to navigate to the Home Page</li>
-                <p class="notes">Additional Notes: (Validation Scenarios)</p>
                 <ul>
-                    <li class="notes">User should not be able to proceed to the next step, if the beneficiary’s name is
-                        not validated.</li>
-                    <li class="notes">Account number field must be numeric and not allow more than 11 characters.</li>
-                    <li class="notes">Transfer amount must be numeric and not exceed more than 2 decimal points.</li>
-                    <li class="notes">Where User attempts to transfer more than the available account balance (with the
-                        transaction fee in consideration), system should display: “Insufficient funds” at the page
-                        before submitting the request</li>
-                    <li class="notes">Where transfer amount exceeds either the single or daily transfer limit, system
-                        prompts “Singe Transaction Limit exceeded” or “Daily Transaction limit exceeded” as the case
-                        maybe. Before submitting the request.</li>
-                    <li class="notes">If the account is inactive or blocked, system displays: “Transaction not allowed.
-                        Please contact customer support.”</li>
-                </ul>
+                    <li>User selects:</li>
+                    <ul>
+                        <li>
+                            <b>Account Number</b>(10-digit input)
+
+                        </li>
+                        <li>
+                            <b>Bank Name</b> (from a dropdown of supported banks)
+                        </li>
+                    </ul>
+                </ul> <br>
+
+                <ul>
+                    <li>System perfomrs <b>automatic name enquiry</b> via API once both bank and account number are
+                        filled.
+                    </li>
+                    <ul>
+                        <li>If valid: display <b>Account Number</b></li>
+                        <li>If invalid: show error message (e.g. "Could not fetch account name")</li>
+                    </ul>
+                </ul> <br>
+
+                <ul>
+                    <li>Alternatively, user may <b>select from Saved Beneficiaries</b> (prefilled values).</li>
+                </ul> <br>
+
+                <h5>Step 3: Enter Amount </h5>
+                <ul>
+                    <li>User inputs transfer amount:</li>
+                    <ul>
+                        <li>Supports comma formatting</li>
+                        <li>Min: ₦100.00</li>
+                        <li>Cannot exceed available balance</li>
+                    </ul>
+                    <li>Optionally enter <b>narration</b> (up to 100 characters)</li>
+                </ul> <br>
+
+                <h5>Step 4: Confirmation Page</h5>
+
+                <ul>
+                    <li>Summary view includes:</li>
+                    <ul>
+                        <li>Debit Account</li>
+                        <li>Beneficiary Name, Account No, Bank</li>
+                        <li>Amount</li>
+                        <li>Narration (if any)</li>
+                    </ul>
+                    <li>CTA: <b>"Continue"</b></li>
+                </ul> <br>
+
+                <h5>Step 5: Transaction PIN Modal</h5>
+
+                <ul>
+                    <li>User is prompted to enter 4-digit <b>Transaction PIN</b></li>
+                    <li>On correct PIN:</li>
+                    <ul>
+                        <li>API is called to process transfer</li>
+                        <li>Show loader until result</li>
+                    </ul>
+                    <li>On incorrect PIN:</li>
+                    <ul>
+                        <li>Show error message</li>
+                    </ul>
+                </ul> <br>
+
+                <h3>Acceptance Criteria</h3>
+                <p>
+                    All required fields must be validated before allowing progression to next step
+                    Beneficiary name is resolved automatically and displayed clearly
+                    User can select from existing beneficiaries instead of manual input
+                    Transaction PIN modal appears only after confirmation step
+                    Success and failure states are clearly shown with reason and reference code
+                    User can optionally save a new beneficiary after a successful transfer
+
+
+                </p>
+
+
 
                 <h3>Airtime/Data/Bill Payments </h3>
                 <p class="notes">Sole User or User with “initiator’ rights attempts to purchase Airtime or Data or Bills
                     payment from own account on Business banking</p>
+
+                    <h3>Flow Description:</h3>
                 <li>Selects “Airtime/Data/Bills’’ option from the Dashboard </li>
                 <p class="notes">NOTE</p>
                 <ul>
@@ -695,9 +812,9 @@
                         “Go to Dashboard” </li>
                     <li class="notes">User receives SMS and email notification on transaction status</li>
                 </ul>
-                <li>
-                    <h5>Bulk Uploads Transfers </h5>
-                </li>
+                
+                    <h3>Bulk Uploads Transfers </h3>
+                
                 <p>Sole User or User with “initiator’ rights attempts to make Bulk transfers, using the bulk upload
                     format on Business banking</p>
                 <li>Selects “Bulk Uploads” under the “Send money” menu on the Dashboard</li>
@@ -716,9 +833,9 @@
                 <p class="notes">NOTE :</p>
                 <li class="notes">User can download template & Bank sort codes available on page</li>
                 <li class="notes">System displays supported file format, size & file status report </li>
-                <li>
-                    <h5>Bulk Uploads – Airtime & Data</h5>
-                </li>
+               
+                    <h3>Bulk Uploads – Airtime & Data</h3>
+               
                 <p>Sole User or User with “initiator’ rights attempts to purchase Airtime or Data for multiple
                     beneficiaries using the bulk upload format </p>
                 <li>Selects “Bulk Uploads” under “Send money” on the Dashboard</li>
@@ -727,9 +844,9 @@
                     “Beneficiary list”</li>
                 <li>Selects either “Bulk Airtime” OR “Bulk Data” option</li>
                 <li>The above listed process flow for Bulk payments applies here.</li>
-                <li>
-                    <h5>Bulk Uploads – Pension Uploads</h5>
-                </li>
+               
+                    <h3>Bulk Uploads – Pension Uploads</h3>
+                
                 <p>Sole User or User with “initiator’ rights attempts to initiate Pension payments for multiple
                     beneficiaries </p>
                 <li>Selects “Bulk Uploads” under ‘Send money” on the Dashboard</li>
@@ -751,7 +868,7 @@
                 <li class="notes">User can download template available on page</li>
                 <li class="notes">System displays supported file format, size & file status report </li>
                 <li>
-                    <h5>Bulk Uploads – Beneficiary List</h5>
+                    <h3>Bulk Uploads – Beneficiary List</h3>
                 </li>
                 <p>Sole User or User with “initiator’ rights attempts to Add or Save multiple beneficiaries </p>
                 <li>Selects “Bulk Uploads” under ‘Send money” on the Dashboard</li>
@@ -763,9 +880,9 @@
                     <li>Selects “Beneficiary Type” from drop list i.e., Transfer, Airtime etc.</li>
                     <li>Uploads Beneficiary file - receives file status report “File Uploaded Successfully”</li>
                 </ul>
-                <li>
-                    <h5>Approvals – “Verifier Rights or Permissions”</h5>
-                </li>
+               
+                    <h3>Approvals – “Verifier Rights or Permissions”</h3>
+               
                 <p>Sole User or User with “verifier’ rights attempts to verify single or bulk transfers, payments or add
                     beneficiaries on queue</p>
                 <li>Selects “Approval” under ‘Send money” menu on the Dashboard</li>
@@ -781,9 +898,9 @@
                     <li class="notes">System returns “Payment Verified” or “Rejected” as applicable</li>
                     <li class="notes">If payment is rejected, verifier must enter reason in the comment box.</li>
                 </ul>
-                <li>
-                    <h5>Approvals – “Authoriser Rights or Permissions”</h5>
-                </li>
+                
+                    <h3>Approvals – “Authoriser Rights or Permissions”</h3>
+               
                 <p>Sole User or User with “authorizer’ rights attempts to approve single or bulk transfers, payments or
                     add beneficiaries on queue</p>
                 <li>Selects “Approval” under ‘Send money” menu on the Dashboard</li>
@@ -801,24 +918,47 @@
                     <li class="notes">System returns “Payment Verified” or “Rejected” as applicable</li>
                     <li class="notes">If payment is rejected, verifier must enter reason in the comment box.</li>
                 </ul>
-                <h3>OTHER SERVICES</h3>
-                <ul>
-                    <li>POS</li>
-                </ul>
-                <li class="notes">User attempts to request for New Or Additional POS device</li>
-                <li>Selects “POS” on the Dashboard </li>
-                <li>Selects Device type from drop list i.e., Android </li>
-                <li>Enters POS details – Business name & POS terminal name</li>
-                <li>Selects delivery option (Home delivery or Branch) and Pick-up branch</li>
-                <li>Confirms details on confirmation page</li>
-                <li>Enters 4-digit transaction PIN</li>
+
             </ul>
-            <p class="notes">Note: System returns request status - “POS Request Successful”</p>
+
+            <h1>OTHER SERVICES</h1>
+            <h3>POS</h3>
+            <p>User selects<b>POS</b>from dashboard</p>
             <ul>
-                <li>
-                    <h5>Physical Card Request</h5>
-                </li>
+                <li>User selects debit account</li>
+                <li>User selects device</li>
+                <p class="notes">NOTE :</p>
+                <p class="notes">User choose from ranges of devices tailored to support business operations efficiently
+                </p>
+                <ul>
+                    <li>Android (FREE)</li>
+                    <li>Analog(FREE)</li>
+                </ul>
+                <li>User selects enters POS details</li>
+                <ul>
+                    <li>Business name</li>
+                    <li>POS terminal name</li>
+                </ul>
+
+                <li>Selects delivery Option</li>
+                <p class="notes">NOTE :</p>
+                <p class="notes">User selects preferred option from delivery options</p>
+                <ul>
+                    <li>Self Pickup</li>
+                    <li>Home delivery</li>
+                </ul>
+                <li>Confirmation</li>
+                <p class="notes">NOTE :</p>
+                <p>System displays confirmation for details provided.</p>
+                <p>Upon confirmation,user input 4-digit transaction pin to proceed securely</p>
+
             </ul>
+
+            <p class="notes">Note: System returns request status - “POS Request Successful”</p>
+
+  
+            <h3>Physical Card Request</h3>
+
             <p>User attempts to request for a Physical card tailored to their need.</p>
             <ul>
                 <li>Selects “Cards” on the Dashboard </li>
@@ -829,24 +969,25 @@
                 <ul>
                     <li class="notes">System displays drop list of Alert Group branches for user to select preferred
                         pick-up branch </li>
-                    <li class="notes">No delivery fee charges added</li>
+                    <li class="notes"></li>
                 </ul>
                 <h5>Where user selects “Home delivery”:</h5>
                 <h6 class="notes">Note: System automatically applies delivery fees to user’s total charge</h6>
-                <li>“Selects account to debit & “card type – Verve/Mastercard” from drop list, enters “address”, “city”,
-                    “state” & “zip code”. </li>
-                <li>Confirms details </li>
                 <li>Enters 4-digit transaction PIN</li>
                 <li>Card request is successfully processed</li>
+
                 <p class="notes">NOTE :</p>
                 <ul>
                     <li class="notes">User may “share receipt”, “download receipt”, OR “Go to Dashboard” </li>
                     <li class="notes">User receives SMS and email notification on transaction status</li>
 
                 </ul>
-                <li>
-                    <h5>Track Card Request</h5>
-                </li>
+
+               
+                
+
+                <h3>Track Card Request</h3>
+
                 <h6 class="notes">User attempts to track new card request to know when card may be ready for collection
                 </h6>
                 <li>Selects “Track card” on the Dashboard </li>
@@ -861,9 +1002,9 @@
                     </li>
 
                 </ul>
-                <li>
-                    <h5>Cancel Card Request</h5>
-                </li>
+
+                <h3>Cancel Card Request</h3>
+
                 <h6 class="notes">User attempts to cancel a card request </h6>
                 <li>Selects “Cancel card request” from the dashboard</li>
                 <ul>
@@ -872,9 +1013,9 @@
                 </ul>
                 <li>Confirms to proceed with “Cancel card request” </li>
                 <li>Card is successfully cancelled and details updated on the database.</li>
-                <li>
-                    <h5>Virtual Card Request</h5>
-                </li>
+
+                <h3>Virtual Card Request</h3>
+
                 <h6 class="notes">User attempts to request for a virtual card for online transactions</h6>
                 <li>Selects “Cards” on the Dashboard </li>
                 <li>Selects “Get a virtual card” </li>
@@ -893,9 +1034,9 @@
                     <li class="notes">User receives SMS and email notification on transaction status</li>
 
                 </ul>
-                <li>
-                    <h5>Reports</h5>
-                </li>
+
+                <h3>Reports</h3>
+
                 <h6 class="notes">User attempts to view or download transaction report for all transaction types</h6>
                 <li>Selects “Report” on the Dashboard</li>
                 <p class="notes">NOTE :</p>
@@ -906,101 +1047,85 @@
                 <li>Selects “transaction date range” & “type” i.e., Airtime, Transfers etc.</li>
                 <p class="notes">NOTE :</p>
                 <ul>
-                    <li  class="notes">Transaction details are displayed with the option for user to share receipt or report an issue, in the case of a disputed transaction</li>
-                    <li  class="notes">User may download report to a CSV file </li>
-                    <li  class="notes">Transaction Report on Transfers captures the following details –</li>
-                    <li  class="notes">Sender, Beneficiary, Beneficiary bank, Amount, Transaction type, Transaction date, Status</li>
-                    <li  class="notes">Transaction Report for Airtime captures the following details –</li>
-                    <li  class="notes">Beneficiary, Network provider, Amount, Top-up (Airtime), Trans date, Status</li>
-                    <li  class="notes">Transaction Report for Data captures the following details –</li>
-                    <li  class="notes">Beneficiary, Network provider, Package, Amount, Top-up (Data), Transaction date, Status</li>
-                    <h6  class="notes"> Transaction Report for Bill Payment captures the following details –</h6>
-                    <li  class="notes">Beneficiary, Service provider, Meter no, Amount, Transaction type, Transaction date, Status</li>
+                    <li class="notes">Transaction details are displayed with the option for user to share receipt or
+                        report an issue, in the case of a disputed transaction</li>
+                    <li class="notes">User may download report to a CSV file </li>
+                    <li class="notes">Transaction Report on Transfers captures the following details –</li>
+                    <li class="notes">Sender, Beneficiary, Beneficiary bank, Amount, Transaction type, Transaction date,
+                        Status</li>
+                    <li class="notes">Transaction Report for Airtime captures the following details –</li>
+                    <li class="notes">Beneficiary, Network provider, Amount, Top-up (Airtime), Trans date, Status</li>
+                    <li class="notes">Transaction Report for Data captures the following details –</li>
+                    <li class="notes">Beneficiary, Network provider, Package, Amount, Top-up (Data), Transaction date,
+                        Status</li>
+                    <h6 class="notes"> Transaction Report for Bill Payment captures the following details –</h6>
+                    <li class="notes">Beneficiary, Service provider, Meter no, Amount, Transaction type, Transaction
+                        date, Status</li>
                 </ul>
-                <li>
-                    <h5>Account Settings</h5>
-                </li>
+               
+                    <h3>Account Settings</h3>
+               
                 <h5>User attempts to access various features under account settings</h5>
-                <h5>User Profile: - </h5>
+                <h3>User Profile: - </h3>
                 <li>From Account settings on the dashboard, select “Profile” </li>
                 <p class="notes">NOTE :</p>
                 <ul>
                     <li class="notes">System displays Users personal details – First name, Last name, Email, </li>
-                    <li class="notes">Date of Birth, Phone number, Account verification, BVN/NIN confirmation & Address verification status. </li>
+                    <li class="notes">Date of Birth, Phone number, email address. next of kin </li>
                 </ul>
-                <h5>Custom Limit: -</h5>
+                <h3>Custom Limit: -</h3>
                 <li>From Account settings on the dashboard, select “Transaction Limit”</li>
                 <ul>
-                    <li class="notes">System displays limits to be set – Custom limit, Transaction limit, for Transfers, Airtime & Data, Bills payment</li>
+                    <li class="notes">System displays limits to be set – Custom limit, Transaction limit, for Transfers,
+                        Airtime & Data, Bills payment</li>
                 </ul>
                 <li>User selects set “Custom limit”</li>
                 <h5 class="notes">Note: System displays field and the existing daily transfer limit</h5>
                 <li>User enters “Desired limit”</li>
                 <h5 class="notes">Note: System displays Daily transaction limit set</h5>
-                <h5>Transaction Limit: -</h5>
+                <h3>Transaction Limit: -</h3>
                 <li>From Account settings on the dashboard, select “Transaction Limit”</li>
-                 <p class="notes">NOTE :</p>
-                 <ul>
-                    <li>System displays limits to be set – Custom limit, Transaction limit, for Transfers, Airtime & Data, Bills payment</li>
-                 </ul>
-                 <li>User selects increase “Transaction limit”</li>
-                 <h6 class="notes">Note: System displays field and the existing daily transaction limit set</h6>
-                 <li>User selects “increase option” i.e., Transfer, Airtime & Data</li>
-                 <li>Enters amount</li>
-                 <li>Accepts “Terms and Conditions”</li>
-                 <p class="notes">NOTE :</p>
-                 <h6 class="notes">Note: System returns message “Transaction limit successfully increased”</h6>
-                 <h5>Change Transaction PIN</h5>
-                 <li>From Account settings on the dashboard, select “Change Transaction PIN”</li>
-                 <h6 class="notes">Note: System displays empty box fields to input details</h6>
-                 <li>Enters 4-digit PIN & Confirm 4-digit PIN</li>
-                 <p class="notes">NOTE :</p>
-                 <ul>
-                    <li class="notes">System checks PIN match and returns success message “Transaction PIN successfully created” </li>
-                    <li class="notes">If there is a mismatch, it returns unsuccessful and customer re-attempts</li>
-                 </ul>
-                 <h5>Set Security Question: -</h5>
-                 <li>From Account settings on the dashboard, select “Security Question”</li>
-                 <h6 class="notes">Note:  System displays empty box fields to input details for question & answer</h6>
-                 <li>Enters details to “Set security question 1” and provide “Answer”</li>
-                 <li>Enters details to “Set security question 2” and provide “Answer”</li>
-                 <li>Enters 4-digit Transaction PIN</li>
-                 <p class="notes">NOTE :</p>
-                 <ul>
-                    <li class="notes">System validates PIN details and returns message “Security question set successfully”</li>
-                 </ul>
-                <h3 class="notes">Log – In</h3>
-                <li>User enters either phone number or email linked to Alert account & selects “continue”</li>
-                <li>Enters “Business Account Passcode”</li>
                 <p class="notes">NOTE :</p>
                 <ul>
-                    <li  class="notes">2FA - system sends 6digit code to either phone number or email for verification</li>
+                    <li>System displays limits to be set – Custom limit, Transaction limit, for Transfers, Airtime &
+                        Data, Bills payment</li>
                 </ul>
-                <li>Enters code to log -in</li>
-                <h3 class="notes">Reset Passcode: -</h3>
-                <li>User enters email for verification</li>
-                <h6 >Note: A 6-digit code is sent to email for verification</h6>
-                <li>User enters 6-digit code received, if successful</li>
-                <li>Enters passcode details new passcode and confirms passcode</li>
-                <li>Passcode is reset successfully</li>
-                <h3 class="notes">Add Beneficiary – Transfer: -</h3>
-                <li>User selects” beneficiaries” menu on the dashboard</li>
-                <li>Selects “beneficiary type” from drop list</li>
-                <li>Enters the following details – “Beneficiary name”, “Account number”, “Bank”, </li>
-                <li>Beneficiary details successfully added</li>
-                <h3 class="notes">Add Beneficiary – Airtime & Data: -</h3>
-                <li>User selects “beneficiaries” menu on the dashboard</li>
-                <li>Selects “beneficiary type” from drop list</li>
-                <li>Enters the following details – “Beneficiary phone number” & “Network provider” </li>
-                <li>Beneficiary details successfully added</li>
-                <h3 class="notes">Add Beneficiary – Bills Payment: -</h3>
-                <li>User selects “beneficiaries” menu on the dashboard</li>
-                <li>Selects “beneficiary type” from drop list</li>
-                <li>Enters the following details – “Wallet name”, “User id”, etc.</li>
-                <li>Selects “service provider” from drop list</li>
-                <li>Beneficiary details successfully added</li>
+                <li>User selects increase “Transaction limit”</li>
+                <h6 class="notes">Note: System displays field and the existing daily transaction limit set</h6>
+                <li>User selects “increase option” i.e., Transfer, Airtime & Data</li>
+                <li>Enters amount</li>
+                <li>Accepts “Terms and Conditions”</li>
+                <p class="notes">NOTE :</p>
+                <h6 class="notes">Note: System returns message “Transaction limit successfully increased”</h6>
+                <h3>Change Transaction PIN</h3>
+                <li>From Account settings on the dashboard, select “Change Transaction PIN”</li>
+                <h6 class="notes">Note: System displays empty box fields to input details</h6>
+                <li>Enters 4-digit PIN & Confirm 4-digit PIN</li>
+                <p class="notes">NOTE :</p>
                 <ul>
-                    <li  class="notes">Beneficiary details can be viewed & downloaded, details can also be edited or deleted </li>
+                    <li class="notes">System checks PIN match and returns success message “Transaction PIN successfully
+                        created” </li>
+                    <li class="notes">If there is a mismatch, it returns unsuccessful and customer re-attempts</li>
+                </ul>
+                <h3>Set Security Question: -</h3>
+                <li>From Account settings on the dashboard, select “Security Question”</li>
+                <h6 class="notes">Note: System displays empty box fields to input details for question & answer</h6>
+                <li>Enters details to “Set security question 1” and provide “Answer”</li>
+                <li>Enters details to “Set security question 2” and provide “Answer”</li>
+                <li>Enters 4-digit Transaction PIN</li>
+                <p class="notes">NOTE :</p>
+                <ul>
+                    <li class="notes">System validates PIN details and returns message “Security question set
+                        successfully”</li>
+                </ul>
+
+
+
+
+
+                <ul>
+                    <li class="notes">Beneficiary details can be viewed & downloaded, details can also be edited or
+                        deleted </li>
                 </ul>
 
             </ul>
